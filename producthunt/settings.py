@@ -125,3 +125,6 @@ TEMPLATE_DIRS = (
     # Add to this list all the locations containing your static files 
 )
 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+MEDIA_URL = '/media/'
